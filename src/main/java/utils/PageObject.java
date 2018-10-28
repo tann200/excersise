@@ -1,10 +1,10 @@
-package booklibrary;
+package utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class PageObject {
-    protected WebDriver driver;
+    protected static WebDriver driver;
 
     public PageObject(WebDriver driver){
         this.driver = driver;
